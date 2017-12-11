@@ -11,4 +11,5 @@ RUN apt-get update && apt-get -y install \
     python \
     build-essential
 
+WORKDIR /opt
 
