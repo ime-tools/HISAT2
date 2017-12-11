@@ -20,3 +20,5 @@ ENV PATH "$PATH:/opt/hisat2-2.1.0/"
 VOLUME /data
 
 WORKDIR /data
+
+CMD hisat2 --help
