@@ -13,3 +13,4 @@ RUN apt-get update && apt-get -y install \
 
 WORKDIR /opt
 
+RUN wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.1.0-source.zip && unzip hisat2-2.1.0-source.zip && cd hisat2-2.1.0 && make && rm /opt/hisat2-2.1.0-source.zip
